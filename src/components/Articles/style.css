@@ -1,0 +1,8 @@
+
+/* movies */
+.articles {
+    display: flex;
+    align-items: start;
+    gap: 2rem;
+}
+

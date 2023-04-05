@@ -1,4 +1,4 @@
-export const movies = [
+const movies = [
   {
     id: 1,
     title: 'Pulp Fiction',
@@ -265,4 +265,12 @@ export const movies = [
   },
 ];
 
-export default movies;
+
+export const getAllMovies = () => {
+  return movies;
+};
+
+export const getMovieById = (id) => {
+
+  return movies.find((movie) => movie.id == id);
+};
